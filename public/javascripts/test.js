@@ -1,3 +1,3 @@
 function functionInTest(){
-  alert('test');
+  reload();
 }
