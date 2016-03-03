@@ -7,6 +7,7 @@ html
         script(src='/javascripts/lib/zepto.js')
         script(src='/javascripts/lib/paper.js')
         script(src='/javascripts/canvas.js', type="text/paperscript", canvas="myCanvas")
+        script(src='/javascripts/test.js')
     body
     h4 Realtime whiteboard - @Swapnil, Amit, Abhijeet, Pritam
     div(id="controls")
@@ -24,5 +25,5 @@ html
         label Opacity
             input(type="range", min="0", max="255", value="255", id="opacity")
             button(class="button", type="reset") Clear Page
-            input(type='submit', value='Login', onClick="functionInJS()")
+            input(type='submit', value='Login', onClick="functionInTest()")
 canvas(id="myCanvas", resize="true")
