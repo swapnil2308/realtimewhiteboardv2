@@ -1,3 +1,3 @@
 function functionInTest(){
-  reload();
+  location.reload(true);
 }
