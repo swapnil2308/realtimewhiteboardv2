@@ -1,3 +1,3 @@
 function functionInTest(){
-  location.reload(true);
+  onClick="window.location.reload(true)"
 }
