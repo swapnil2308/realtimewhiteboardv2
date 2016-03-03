@@ -84,7 +84,7 @@ function onMouseDown(event) {
 function onMouseDrag(event) {
     
     var step = event.delta / 2;
-    step.angle += 0;
+    step.angle += 90;
     
     var top = event.middlePoint + step;
     var bottom = event.middlePoint - step;
